@@ -4,7 +4,7 @@ let lengthDisplay = document.querySelector('[lengthDisplay');
 let slider = document.querySelector('input[type=range]');
 // console.log(slider)
 
-
+//
 function handleSlider() {
     slider.value = passwordLength;
     lengthDisplay.innerText = passwordLength;
